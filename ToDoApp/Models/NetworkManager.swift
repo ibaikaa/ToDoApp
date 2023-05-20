@@ -92,5 +92,5 @@ final class NetworkManager {
         let statusCode = getStatusCode(for: response)
         guard statusCode == 204 else { throw ApiError.failedToDelete }
     }
-    
+     
 }
